@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousel{
+  max-height: 500px;
+}
+
+/* styles.css */
+body {
+  background-color: #f0f4f3; /* Light greenish-grey background */
+  color: #333; /* Dark grey text color */
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly more pronounced shadow */
+}
+
+.card-title {
+  color: #28a745; /* Green color for card titles */
+}
+
+.card-body {
+  color: #555; /* Slightly darker grey for card body text */
+}
+
+.carousel-caption input {
+  background-color: #ffffff; /* White background for search bar */
+  border: 1px solid #28a745; /* Green border for search bar */
+  color: #333; /* Dark grey text color */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green button background */
+  border-color: #28a745; /* Green button border */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34; /* Even darker green border on hover */
+}
+
+hr {
+  border-top: 1px solid #e0e0e0; /* Light grey line for the divider */
+}
+
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #adb5bd;
+}
+
+.footer .fa {
+  margin-right: 8px;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer .img-fluid {
+  max-width: 140px;
+  margin-bottom: 10px;
+}
+
+.footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .footer .row > div {
+    margin-bottom: 1.5rem;
+  }
+}
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  filter: brightness(100%);
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+/* styles.css */
+.cart-container {
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem;
+  background-color: #ffffff; /* White background for the cart */
+  border: 1px solid #e0e0e0; /* Light grey border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly more pronounced shadow */
+}
+
+.cart-table th, .cart-table td {
+  vertical-align: middle; /* Vertically align the text in the middle */
+  text-align: center; /* Center align text */
+}
+
+.cart-table th {
+  color: #28a745; /* Green color for table headers */
+  font-size: 1.25rem;
+}
+
+.cart-table td {
+  color: #555; /* Slightly darker grey for table data */
+}
+
+.cart-table .fa-trash {
+  color: #dc3545; /* Red color for the trash icon */
+  cursor: pointer;
+}
+
+.cart-table .fa-trash:hover {
+  color: #c82333; /* Darker red on hover */
+}
+
+.cart-total {
+  color: #333; /* Dark grey color */
+  text-align: left; /* Align text to the right */
+ 
+  
+}
+
+.cart-checkout-btn {
+  background-color: #28a745; /* Green button background */
+  border-color: #28a745; /* Green button border */
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 2rem; /* Padding for the button */
+  font-size: 1.25rem; /* Larger font size */
+  border-radius: 8px; /* Rounded corners */
+  display: block;
+  width: fit-content;
+  /* margin: 2rem auto 0;  */
+  /* Center the button and add margin */
+}
+
+.cart-checkout-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34; /* Even darker green border on hover */
+}
+
+.empty-cart {
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #555; /* Slightly darker grey for empty cart text */
+}
